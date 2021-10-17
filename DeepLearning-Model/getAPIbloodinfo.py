@@ -25,7 +25,7 @@ def getAPIinfo(ReqURL):
 
 def displayCSVFile():
     with open(csvFile()) as openFile:
-        print(openFile.readline(), end = "")
+        print(openFile.readline(), end="")
 
 
 # Test
