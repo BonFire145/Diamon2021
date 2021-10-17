@@ -19,4 +19,5 @@ class CommentSerializer(serializers.HyperlinkedModelSerializer):
 class bloodinfoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = bloodinfo
-        fields = '__all__'
+        fields = ('param1', 'param2', 'param3', 'param4', 'param5', 'param6', 'param7', 'param8', 'param9')
+        #fields = '__all__'
