@@ -74,13 +74,15 @@ def start_learning(learning_model):
 
 
 def displayLearning(infoTuple):
-    model, hypothesis = infoTuple    
-    
+    model, hypothesis = infoTuple
+
     # Accuracy computation
     predicted = (model(X).data > 0.5).float()
     accuracy = (predicted == Y.data).float().mean()
-    print("\nHypothesis: ", hypothesis.data.numpy(), "\nCorrect (Y): ", predicted.numpy(), "\nAccuracy: ", accuracy)
-    print("신뢰도: {:.2f}%".format(accuracy*100))
+    print("\nHypothesis: ", hypothesis.data.reshape(11, 3, 23).numpy())
+    print("\nCorrect (Y): ", predicted.reshape(11, 3, 23).numpy())
+    print("\nAccuracy: ", accuracy)
+    print("\n신뢰도: {:.2f}%".format(accuracy*100))
 
 
 if __name__ == '__main__':
