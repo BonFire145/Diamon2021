@@ -1,6 +1,6 @@
-from django.urls import path
+from django.urls import path, include
 from board.views import *
-urlpatterns = [
-    path("bloodinfo",BloodinfoListAPIView.as_view())
-]
 
+urlpatterns = [
+    path("bloodpredict",BloodinfoListAPIView.as_view())
+]

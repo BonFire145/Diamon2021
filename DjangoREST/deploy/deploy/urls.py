@@ -20,13 +20,12 @@ from rest_framework import routers
 from board import views
 
 router = routers.DefaultRouter()
-router.register(r'postings', views.PostingViewSet)
-router.register(r'comments', views.CommentViewSet)
-#router.register(r'bloodinfo', views.BloodinfoViewSet)
+router.register(r'bloodinfo', views.BloodinfoViewSet)
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
+    path('api/', include(router.urls)), 
     path('api/', include("board.urls")),
 ]
