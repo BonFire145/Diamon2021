@@ -1,0 +1,12 @@
+
+DeepLearning-Model/TempCSV/getAPIbloodinfo.csv
+
+DjangoREST/deploy/board/__pycache__/one_data_predict.cpython-38.pyc
+
+DjangoREST/deploy/board/__pycache__/serializers.cpython-38.pyc
+
+DjangoREST/deploy/board/__pycache__/urls.cpython-38.pyc
+
+DjangoREST/deploy/board/__pycache__/views.cpython-38.pyc
+
+*.pyc

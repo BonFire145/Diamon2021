@@ -16,8 +16,8 @@ class CommentSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('posting', 'name', 'text')
 
 
-class bloodinfoSerializer(serializers.HyperlinkedModelSerializer):
+class bloodinfoSerializer(serializers.ModelSerializer):
     class Meta:
         model = bloodinfo
-        fields = ('param1', 'param2', 'param3', 'param4', 'param5', 'param6', 'param7', 'param8', 'param9')
+        fields = ('param1', 'param2', 'param3', 'param4', 'param5', 'param6', 'param7', 'param8')
         #fields = '__all__'
