@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DiamonApp
 //
-//  Created by BonFire on 2021/10/07.
+//  Created by BonFire on 2021/10/28.
 //
 
 import UIKit

@@ -7,68 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5DC2BF2270EF656004D99E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2BF1270EF656004D99E6 /* AppDelegate.swift */; };
-		D5DC2BF4270EF656004D99E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2BF3270EF656004D99E6 /* SceneDelegate.swift */; };
-		D5DC2BF6270EF656004D99E6 /* ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2BF5270EF656004D99E6 /* ChartController.swift */; };
-		D5DC2BF9270EF656004D99E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DC2BF7270EF656004D99E6 /* Main.storyboard */; };
-		D5DC2BFB270EF65A004D99E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DC2BFA270EF65A004D99E6 /* Assets.xcassets */; };
-		D5DC2BFE270EF65A004D99E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DC2BFC270EF65A004D99E6 /* LaunchScreen.storyboard */; };
-		D5DC2C06270EFCAC004D99E6 /* BloodInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2C05270EFCAC004D99E6 /* BloodInfoController.swift */; };
-		D5DC2C08270EFD6D004D99E6 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC2C07270EFD6D004D99E6 /* HistoryController.swift */; };
+		6CB02A0A88D7D84AA2011276 /* Pods_DiamonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA703C9D457CD77E4E40367F /* Pods_DiamonApp.framework */; };
+		D5DF1D26272ACDF5002F1FC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF1D25272ACDF5002F1FC4 /* AppDelegate.swift */; };
+		D5DF1D28272ACDF5002F1FC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF1D27272ACDF5002F1FC4 /* SceneDelegate.swift */; };
+		D5DF1D2A272ACDF5002F1FC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DF1D29272ACDF5002F1FC4 /* ViewController.swift */; };
+		D5DF1D2D272ACDF5002F1FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DF1D2B272ACDF5002F1FC4 /* Main.storyboard */; };
+		D5DF1D2F272ACDFE002F1FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DF1D2E272ACDFE002F1FC4 /* Assets.xcassets */; };
+		D5DF1D32272ACDFE002F1FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DF1D30272ACDFE002F1FC4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5DC2BEE270EF656004D99E6 /* DiamonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiamonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5DC2BF1270EF656004D99E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5DC2BF3270EF656004D99E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D5DC2BF5270EF656004D99E6 /* ChartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartController.swift; sourceTree = "<group>"; };
-		D5DC2BF8270EF656004D99E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D5DC2BFA270EF65A004D99E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5DC2BFD270EF65A004D99E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5DC2BFF270EF65A004D99E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5DC2C05270EFCAC004D99E6 /* BloodInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodInfoController.swift; sourceTree = "<group>"; };
-		D5DC2C07270EFD6D004D99E6 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		43090DD7EB5667463641077E /* Pods-DiamonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamonApp.release.xcconfig"; path = "Target Support Files/Pods-DiamonApp/Pods-DiamonApp.release.xcconfig"; sourceTree = "<group>"; };
+		BA703C9D457CD77E4E40367F /* Pods_DiamonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiamonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DF1D22272ACDF5002F1FC4 /* DiamonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiamonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DF1D25272ACDF5002F1FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5DF1D27272ACDF5002F1FC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5DF1D29272ACDF5002F1FC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5DF1D2C272ACDF5002F1FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DF1D2E272ACDFE002F1FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5DF1D31272ACDFE002F1FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5DF1D33272ACDFE002F1FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC04D6F6085294469D6B06D /* Pods-DiamonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiamonApp.debug.xcconfig"; path = "Target Support Files/Pods-DiamonApp/Pods-DiamonApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D5DC2BEB270EF656004D99E6 /* Frameworks */ = {
+		D5DF1D1F272ACDF5002F1FC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB02A0A88D7D84AA2011276 /* Pods_DiamonApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D5DC2BE5270EF656004D99E6 = {
+		43202E0D410E4AB83E8559F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D5DC2BF0270EF656004D99E6 /* DiamonApp */,
-				D5DC2BEF270EF656004D99E6 /* Products */,
+				FDC04D6F6085294469D6B06D /* Pods-DiamonApp.debug.xcconfig */,
+				43090DD7EB5667463641077E /* Pods-DiamonApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B30E1F4FC5DF020F2271AB2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA703C9D457CD77E4E40367F /* Pods_DiamonApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5DF1D19272ACDF5002F1FC4 = {
+			isa = PBXGroup;
+			children = (
+				D5DF1D24272ACDF5002F1FC4 /* DiamonApp */,
+				D5DF1D23272ACDF5002F1FC4 /* Products */,
+				43202E0D410E4AB83E8559F5 /* Pods */,
+				B30E1F4FC5DF020F2271AB2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		D5DC2BEF270EF656004D99E6 /* Products */ = {
+		D5DF1D23272ACDF5002F1FC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5DC2BEE270EF656004D99E6 /* DiamonApp.app */,
+				D5DF1D22272ACDF5002F1FC4 /* DiamonApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5DC2BF0270EF656004D99E6 /* DiamonApp */ = {
+		D5DF1D24272ACDF5002F1FC4 /* DiamonApp */ = {
 			isa = PBXGroup;
 			children = (
-				D5DC2BF1270EF656004D99E6 /* AppDelegate.swift */,
-				D5DC2BF3270EF656004D99E6 /* SceneDelegate.swift */,
-				D5DC2BF7270EF656004D99E6 /* Main.storyboard */,
-				D5DC2BFC270EF65A004D99E6 /* LaunchScreen.storyboard */,
-				D5DC2BFF270EF65A004D99E6 /* Info.plist */,
-				D5DC2BFA270EF65A004D99E6 /* Assets.xcassets */,
-				D5DC2C05270EFCAC004D99E6 /* BloodInfoController.swift */,
-				D5DC2C07270EFD6D004D99E6 /* HistoryController.swift */,
-				D5DC2BF5270EF656004D99E6 /* ChartController.swift */,
+				D5DF1D25272ACDF5002F1FC4 /* AppDelegate.swift */,
+				D5DF1D27272ACDF5002F1FC4 /* SceneDelegate.swift */,
+				D5DF1D29272ACDF5002F1FC4 /* ViewController.swift */,
+				D5DF1D2B272ACDF5002F1FC4 /* Main.storyboard */,
+				D5DF1D2E272ACDFE002F1FC4 /* Assets.xcassets */,
+				D5DF1D30272ACDFE002F1FC4 /* LaunchScreen.storyboard */,
+				D5DF1D33272ACDFE002F1FC4 /* Info.plist */,
 			);
 			path = DiamonApp;
 			sourceTree = "<group>";
@@ -76,13 +95,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5DC2BED270EF656004D99E6 /* DiamonApp */ = {
+		D5DF1D21272ACDF5002F1FC4 /* DiamonApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5DC2C02270EF65A004D99E6 /* Build configuration list for PBXNativeTarget "DiamonApp" */;
+			buildConfigurationList = D5DF1D36272ACDFE002F1FC4 /* Build configuration list for PBXNativeTarget "DiamonApp" */;
 			buildPhases = (
-				D5DC2BEA270EF656004D99E6 /* Sources */,
-				D5DC2BEB270EF656004D99E6 /* Frameworks */,
-				D5DC2BEC270EF656004D99E6 /* Resources */,
+				826861F4246E1809F9C6B982 /* [CP] Check Pods Manifest.lock */,
+				D5DF1D1E272ACDF5002F1FC4 /* Sources */,
+				D5DF1D1F272ACDF5002F1FC4 /* Frameworks */,
+				D5DF1D20272ACDF5002F1FC4 /* Resources */,
+				7EB497DC25D01130647797FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,25 +111,25 @@
 			);
 			name = DiamonApp;
 			productName = DiamonApp;
-			productReference = D5DC2BEE270EF656004D99E6 /* DiamonApp.app */;
+			productReference = D5DF1D22272ACDF5002F1FC4 /* DiamonApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D5DC2BE6270EF656004D99E6 /* Project object */ = {
+		D5DF1D1A272ACDF5002F1FC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					D5DC2BED270EF656004D99E6 = {
-						CreatedOnToolsVersion = 13.0;
+					D5DF1D21272ACDF5002F1FC4 = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = D5DC2BE9270EF656004D99E6 /* Build configuration list for PBXProject "DiamonApp" */;
+			buildConfigurationList = D5DF1D1D272ACDF5002F1FC4 /* Build configuration list for PBXProject "DiamonApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +137,97 @@
 				en,
 				Base,
 			);
-			mainGroup = D5DC2BE5270EF656004D99E6;
-			productRefGroup = D5DC2BEF270EF656004D99E6 /* Products */;
+			mainGroup = D5DF1D19272ACDF5002F1FC4;
+			productRefGroup = D5DF1D23272ACDF5002F1FC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5DC2BED270EF656004D99E6 /* DiamonApp */,
+				D5DF1D21272ACDF5002F1FC4 /* DiamonApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D5DC2BEC270EF656004D99E6 /* Resources */ = {
+		D5DF1D20272ACDF5002F1FC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5DC2BFE270EF65A004D99E6 /* LaunchScreen.storyboard in Resources */,
-				D5DC2BFB270EF65A004D99E6 /* Assets.xcassets in Resources */,
-				D5DC2BF9270EF656004D99E6 /* Main.storyboard in Resources */,
+				D5DF1D32272ACDFE002F1FC4 /* LaunchScreen.storyboard in Resources */,
+				D5DF1D2F272ACDFE002F1FC4 /* Assets.xcassets in Resources */,
+				D5DF1D2D272ACDF5002F1FC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EB497DC25D01130647797FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiamonApp/Pods-DiamonApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiamonApp/Pods-DiamonApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiamonApp/Pods-DiamonApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826861F4246E1809F9C6B982 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiamonApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D5DC2BEA270EF656004D99E6 /* Sources */ = {
+		D5DF1D1E272ACDF5002F1FC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5DC2C08270EFD6D004D99E6 /* HistoryController.swift in Sources */,
-				D5DC2C06270EFCAC004D99E6 /* BloodInfoController.swift in Sources */,
-				D5DC2BF6270EF656004D99E6 /* ChartController.swift in Sources */,
-				D5DC2BF2270EF656004D99E6 /* AppDelegate.swift in Sources */,
-				D5DC2BF4270EF656004D99E6 /* SceneDelegate.swift in Sources */,
+				D5DF1D2A272ACDF5002F1FC4 /* ViewController.swift in Sources */,
+				D5DF1D26272ACDF5002F1FC4 /* AppDelegate.swift in Sources */,
+				D5DF1D28272ACDF5002F1FC4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5DC2BF7270EF656004D99E6 /* Main.storyboard */ = {
+		D5DF1D2B272ACDF5002F1FC4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5DC2BF8270EF656004D99E6 /* Base */,
+				D5DF1D2C272ACDF5002F1FC4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D5DC2BFC270EF65A004D99E6 /* LaunchScreen.storyboard */ = {
+		D5DF1D30272ACDFE002F1FC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5DC2BFD270EF65A004D99E6 /* Base */,
+				D5DF1D31272ACDFE002F1FC4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +235,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D5DC2C00270EF65A004D99E6 /* Debug */ = {
+		D5DF1D34272ACDFE002F1FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		D5DC2C01270EF65A004D99E6 /* Release */ = {
+		D5DF1D35272ACDFE002F1FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,8 +351,9 @@
 			};
 			name = Release;
 		};
-		D5DC2C03270EF65A004D99E6 /* Debug */ = {
+		D5DF1D37272ACDFE002F1FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDC04D6F6085294469D6B06D /* Pods-DiamonApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,13 +374,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DiamonApp.DiamonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D5DC2C04270EF65A004D99E6 /* Release */ = {
+		D5DF1D38272ACDFE002F1FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43090DD7EB5667463641077E /* Pods-DiamonApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DiamonApp.DiamonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -347,25 +410,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5DC2BE9270EF656004D99E6 /* Build configuration list for PBXProject "DiamonApp" */ = {
+		D5DF1D1D272ACDF5002F1FC4 /* Build configuration list for PBXProject "DiamonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5DC2C00270EF65A004D99E6 /* Debug */,
-				D5DC2C01270EF65A004D99E6 /* Release */,
+				D5DF1D34272ACDFE002F1FC4 /* Debug */,
+				D5DF1D35272ACDFE002F1FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5DC2C02270EF65A004D99E6 /* Build configuration list for PBXNativeTarget "DiamonApp" */ = {
+		D5DF1D36272ACDFE002F1FC4 /* Build configuration list for PBXNativeTarget "DiamonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5DC2C03270EF65A004D99E6 /* Debug */,
-				D5DC2C04270EF65A004D99E6 /* Release */,
+				D5DF1D37272ACDFE002F1FC4 /* Debug */,
+				D5DF1D38272ACDFE002F1FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D5DC2BE6270EF656004D99E6 /* Project object */;
+	rootObject = D5DF1D1A272ACDF5002F1FC4 /* Project object */;
 }

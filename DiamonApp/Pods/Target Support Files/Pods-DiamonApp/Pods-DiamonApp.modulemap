@@ -1,0 +1,6 @@
+framework module Pods_DiamonApp {
+  umbrella header "Pods-DiamonApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
