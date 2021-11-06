@@ -113,6 +113,7 @@ class ViewController: UIViewController {
             self.insulinInfo.text = insulinNum
             insulinDataEntry.value = insulinNumDouble!
             
+            
             updateChartData()
             
         } catch let e as NSError {
