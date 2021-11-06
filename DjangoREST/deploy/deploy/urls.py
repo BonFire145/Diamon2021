@@ -21,11 +21,11 @@ from board import views
 
 router = routers.DefaultRouter()
 router.register(r'bloodinfo', views.BloodinfoViewSet)
-
+router.register(r'bloodinfo_origin', views.BloodinfoOriginViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
-    path('api/', include(router.urls)), 
+    path('api/', include(router.urls)),
     path('api/', include("board.urls")),
 ]
