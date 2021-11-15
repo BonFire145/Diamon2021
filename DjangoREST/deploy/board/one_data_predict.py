@@ -13,10 +13,6 @@ def modelFile():
     return os.path.join(path(), "model/model_static.pt")
 
 
-def saveModel(model):
-    torch.save(model.state_dict(), modelFile())
-
-
 def LoadModel(model):
     model.load_state_dict(torch.load(modelFile()))
     model.eval()
@@ -33,20 +29,15 @@ def Prediction(xy):
     X = Variable(torch.from_numpy(x_data))
     Y = Variable(torch.from_numpy(y_data))
 
-    # Hypothesis using sigmoid
     linear = torch.nn.Linear(8, 1, bias=True)
-    sigmoid = torch.nn.Sigmoid()
-    model = torch.nn.Sequential(linear, sigmoid)
-
+    tanh = torch.nn.Tanh()
+    model = torch.nn.Sequential(linear, tanh)
     model = LoadModel(model)
+
     return displayLearning(model, X, Y)
 
 
 def displayLearning(model, X, Y):
-    hypothesis = model(X)
-
-    # Accuracy computation
     predicted = (model(X).data > 0.5).float()
-    accuracy = (predicted == Y.data).float().mean()
 
     return int(predicted.numpy()[0].tolist())
