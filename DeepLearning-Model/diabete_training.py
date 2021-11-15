@@ -13,7 +13,7 @@ def modelFile():
 
 
 def csvFile():
-    return os.path.join(path(), "data-03-diabetes.csv")
+    return os.path.join(path(), "pima-diabetes-data.csv")
 
 
 def saveModel(model):
