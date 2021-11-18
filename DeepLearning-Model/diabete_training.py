@@ -2,6 +2,7 @@ import os
 import torch
 from torch.autograd import Variable
 import numpy as np
+from sklearn.metrics import classification_report, confusion_matrix
 
 
 def path():
@@ -31,11 +32,11 @@ def setting_DeepLearning():
     torch.manual_seed(777)  # for reproducibility
 
     xy = np.loadtxt(csvFile(), delimiter=',', dtype=np.float32)
-    x_train_data = xy[:388, 0:-1]
-    y_train_data = xy[:388, [-1]]
+    x_train_data = xy[:301, 0:-1]
+    y_train_data = xy[:301, [-1]]
 
-    x_test_data = xy[389:, 0:-1]
-    y_test_data = xy[389:, [-1]]
+    x_test_data = xy[302:, 0:-1]
+    y_test_data = xy[302:, [-1]]
 
     global X_train
     global Y_train
@@ -77,7 +78,7 @@ def start_learning(learning_model):
         if step % 200 == 0:
             print(step, cost.data.numpy())
 
-    saveModel(learning_model)
+    # saveModel(learning_model)
 
     return (learning_model, hypothesis)
 
@@ -92,6 +93,9 @@ def displayLearning(infoTuple):
     #print("\nHypothesis: ", hypothesis.data.reshape(11, 3, 23).numpy())
     #print("\nCorrect (Y): ", predicted.reshape(11, 3, 23).numpy())
     print("\nAccuracy: ", accuracy)
+
+    target = ["Yes", "No"]
+    print(classification_report(Y_Test.data, predicted, target_names=target))
 
 
 if __name__ == '__main__':
